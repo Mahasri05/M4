@@ -3,12 +3,13 @@
 To write a C Program to perform the basic left shift operation for 44 integer number with 3 shifts.
 
 ## ALGORITHM
+```
 1.	Start the program.
 2.	Assign values of a and b as 44 and 3.
 3.	Use left shift operator (<<) and shift the value of a three times.
 4.	Display the result.
 5.	Stop the program.
-
+```
 ## PROGRAM
 ```
 #include <stdio.h>
@@ -54,13 +55,13 @@ Thus the program to perform the basic left shift operation for 44 integer number
 Write a C Program to check whether the two numbers are equal or not using simple if statement.
 
 ## ALGORITHM
-
+```
 1.	Start the program.
 2.	Read two numbers.
 3.	If first number is equal to second number, display both are equal.
 4.	Otherwise display both are not equal.
 5.	Stop the program.
-
+```
 ## PROGRAM
 ```
 #include <stdio.h>
@@ -97,12 +98,13 @@ Thus the program to check whether the two numbers are equal or not using simple 
 Write a C Program to convert the given string into lowercase.
 
 ## ALGORITHM
+```
 1.	Start the program.
 2.	Read a string variable.
 3.	Using tolower( ) function convert the given string into its lowercase.
 4.	Display the result.
 5.	Stop the program.
-
+```
 ## PROGRAM
 ```
 #include <stdio.h>
@@ -144,13 +146,14 @@ Thus the program to convert the given string into lowercase has been executed su
 Write a C Program to count the total number of words in a given string using do While loop.
 
 ## ALGORITHM
+```
 1.	Start the program.
 2.	Read a string variable.
 3.	Using for loop, inspect the string character by character.
 4.	Whenever a space is encountered increment count by 1.
 5.	Display the result.
 6.	Stop the program.
-
+```
 ## PROGRAM
 ```
 #include <stdio.h>
@@ -190,9 +193,13 @@ Thus the program to count the total number of words in a given string using do W
 
 
 # EX  -20 -COMPARING TWO STRINGS
+
 ## AIM
+
 write a Program to compare two strings without using strcmp().
+
 ## ALGORITHM
+```
 Step 1: Start the program.
 Step 2: Declare two character arrays c1 and c2 of size 100 to store the strings. Also, declare an integer variable
              flag and initialize it to 0, and i for indexing.      
@@ -208,7 +215,7 @@ Step 7: After the loop, check the value of flag:
 •	If flag == 0, print "strings are same".
 •	Otherwise, print "strings are not same".
 Step 8: End the program.
-
+```
 ## PROGRAM
 ```
 #include <stdio.h>
